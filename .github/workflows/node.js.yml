@@ -30,11 +30,11 @@ jobs:
       - run: npm run build -- --public-url https://malaviyaisha.github.io/${{ github.event.repository.name }}
 
       - name: List files for debugging
-        run: ls public
+        run: ls dist
 
       - name: Deploy with gh-pages
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          npx gh-pages -d public -u "github-actions-bot <support+actions@github.com>"
+          npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
