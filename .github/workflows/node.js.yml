@@ -26,8 +26,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
-      - run: npm i
-      - run: npm start
+      - run: npm ci
+      - run: npm run build
 
       - name: List files for debugging
         run: ls -alh dist
