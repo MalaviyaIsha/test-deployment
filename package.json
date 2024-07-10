@@ -4,10 +4,11 @@
   "homepage": "https://MalaviyaIsha.github.io/test-deployment",
   "description": "",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "start": "parcel src/index.html --no-source-maps",
-    "build": "parcel build src/index.html --no-source-maps "
+    "start": "parcel",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build --dist-dir public --no-source-maps"
   },
   "author": "",
   "license": "ISC",
