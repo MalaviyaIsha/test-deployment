@@ -7,7 +7,7 @@
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "parcel src/index.html --no-source-maps",
-    "build": "parcel build src/index.html --public-url /testAldente/ --no-source-maps"
+    "build": "parcel build src/index.html --public-url ./ --no-source-maps"
   },
   "author": "",
   "license": "ISC",
