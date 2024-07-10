@@ -1,7 +1,7 @@
 {
-  "name": "react-parcel-project",
+  "name": "test-deployment",
   "version": "1.0.0",
-  "homepage": "https://MalaviyaIsha.github.io/react-parcel-project",
+  "homepage": "https://MalaviyaIsha.github.io/test-deployment",
   "description": "",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
